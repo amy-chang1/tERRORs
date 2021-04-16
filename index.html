@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <title> tERRORS Pizzeria</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|East Sea Dokdo|Audiowide">
+
+<style>
+h2,h3{font-family: "East Sea Dokdo", sans-serif; font-size: 30px;}
+ 
+</style>
+
+
+<body>
+	<div id="start" class="html-content">
+	<!--	<header class="html-container">
+      <h1>tERRORS Pizza</h1></header>-->
+      <header class="header">
+			<h1> tERROS Pizza </h1>
+      <h4> Perfect slice, perfect price!</h4>
+	   	</header>
+       <ul>
+			<li><a href="#MENU">Menu </a></li>
+			<li><a href="#DELIVERY">Delivery </a><li>
+			<li><a href="#CUSTOMER_REVIEW">Customer Review </a><li>
+			<li><a href="#CONTACT_US" >Contact Us </a><li>
+       </ul>
+   </div>
+		
+    <!-- SLIDESHOW CODE -->
+
+    <div class="slideshow-container">
+
+       <div class="slides">
+        <img src="Vegetastic.jpg" style="width:100%">
+        <div class="text"> Vegetastic Pizza </div>
+    </div>
+
+  <div class="slides">
+    <img src="Meat lovers.jpg" style="width:100%">
+    <div class="text">Meat Lovers Pizza</div>
+  </div>
+
+  <div class="slides">
+    <img src="meat madness.jpg" style="width:100%">
+    <div class="text">Meat Madness Pizza</div>
+  </div>
+  
+  <div class="slides">
+    <img src="Veggielicious.jpg" style="width:100%">
+    <div class="text">Veggielicious Pizza</div>
+  </div>
+</div>
+<br>
+
+<!-- END OF SLIDESHOW CODE -->
+
+<!-- MENU-->
+  <section id="MENU">
+    <header class="html-container   font-size:20px  ">
+      <h2>Menu</h2></header>
+      <a href="#MENU"><div class="html-text-white "></div></a>
+
+      <div id="MENU" style=" max-width:100; height:auto; background-image:url('Vegetastic.jpg');background-size:cover; background-attachment: fixed; ">
+        <h3><b>Meat Madness</b><span> $180.00
+             </span></h3>
+        <p>Loaded Peperoni, Chicken, Beef, Tortillas</p>
+         <button onclick="orderMM()"> Order NOW! </button>
+
+  
+        <h3><b>Meat Lovers</b><span> $130.00
+              </span></h3>
+              <p>Basil, Pineapple, Olives, Sweetpeppers,loaded with Pepperoni</p>
+               <button onclick="orderML()"> Order NOW!</button>
+        
+        <h3><b>Vegelicious</b><span class> $100.00
+              </span></h3>
+              <p>Basil, Pineapple, Olives, Sweetpeppers,tomatoes</p>
+              <button onclick="orderVL()"> Order NOW!</button>
+
+        <h3><b>Vegetastic</b><span> $140.00
+              </span></h3>
+              <p>Basil, Pineapple, Olives, Sweetpeppers,tomatoes, Mushrooms, Onion</p>
+              <button onclick="orderVT()"> Order NOW!</button>
+      </div>
+  </section>
+<!-- END OF MENU-->
+<!-- START OF DELIVERY -->
+  <section id="DELIVERY">
+<header class="html-container font-size:20px">
+  <h2>Delivery</h2></header>
+  <a href="#DELIVERY"><div class="html-text-white"></div></a>
+
+  <div id="DELIVERY" style=" max-width:100; height:auto; background-image:url('Vegetastic.jpg');background-size:cover; background-attachment: fixed; ">
+
+    <form action="/action_page.php">
+    <p>Place your location here!</p>
+     <textarea rows="4" cols="50" name="comment"
+     form="usrform"></textarea>
+     </form>
+     
+     <!--Let these people choose delivery -->
+
+     <button onclick="displayTotal()"> Place Order</button> 
+     
+     <form action="/action_page.php">
+          <p>Any special requests? Let us know!</p>
+      <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
+    </form>  
+      <button onclick="function1()">Submit</button> 
+  </div>
+  </section>
+  <!-- END OF DELIVERY -->
+
+  <!-- START OF CUSTOMER REVIEW -->
+  <section id="CUSTOMER_REVIEW">
+ <header class="html-container font-size:20px"> 
+   <h2>Customer Reviews</h2></header>
+   <a href="#CUSTOMER_REVIEW"><div class="html-text-white"></div></a>
+    
+   <div id="CUSTOMER_REVIEW" style=" max-width:100; height:auto; background-image:url('Vegetastic.jpg');background-size:cover; background-attachment: fixed;">
+     <p>Share your experience with us!</p>
+      <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
+     <button onclick="function1()">Submit</button> 
+   </div>
+  </section>
+  <!-- END OF CUSTOMER REVIEW -->
+
+<!-- START OF CONTACT US -->
+  <section id="CONTACT_US">
+    <header class="html-container   font-size:20px">
+      <h2>Contact Us</h2></header>
+      <a href="#CONTACT_US"><div class="html-text-white " ></div></a>
+
+      <div id="CONTACT_US" style=" max-width:100; height:auto; background-image:url('Vegetastic.jpg');background-size:cover; background-attachment: fixed; ">
+        <p> Please feel free to contact us at Gmail: tERRORSpizza@gmail.com</p>
+        <p> Contact number:1(868)234-5678</p>
+      </div>
+  </section>
+  <!-- END OF CONTACT US -->
+
+ 
+</body>
+</html>
+
+<script>
+    function function1(){
+      alert("Information has been submitted");
+    }
+</script>
+		<script src="script.js">
+      
+		</script>
+
+
+</html>
