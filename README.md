@@ -4,7 +4,7 @@ Date: 16th April, 2021
 
 This project was done for a year 1 course (INFO 1601: WWW Programming) at the University of the West Indies. 
 The group members are: 
-- Rhenece Andrews
+- Rhenece Andrew
 - Heather Ameerali 
 - Davina Caesar 
 - Cheyenne Duchaussee
