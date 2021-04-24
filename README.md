@@ -8,6 +8,7 @@ The group members are:
 - Heather Ameerali 
 - Davina Caesar 
 - Cheyenne Duchaussee
+- Amy Chang
 
 It is a website done for a pizzeria and has a simplistic design. It allows the user to view the pizzas that the pizzeria has to offer.
 The user also has the option to place the order and request delivery. 
